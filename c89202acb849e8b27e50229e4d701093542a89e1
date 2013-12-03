@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c3be12c6_d3fbb4ec",
+        "filename": "src/main/resources/Documentation/config.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-12-03T06:14:43Z",
+      "side": 1,
+      "message": "Add the example answer.",
+      "range": {
+        "startLine": 168,
+        "startChar": 44,
+        "endLine": 168,
+        "endChar": 46
+      },
+      "revId": "c89202acb849e8b27e50229e4d701093542a89e1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e3c15653_1407d434",
+        "filename": "src/main/resources/Documentation/config.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-12-03T06:14:43Z",
+      "side": 1,
+      "message": "Trailing white space.  Tabs.",
+      "range": {
+        "startLine": 171,
+        "startChar": 4,
+        "endLine": 171,
+        "endChar": 5
+      },
+      "revId": "c89202acb849e8b27e50229e4d701093542a89e1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
