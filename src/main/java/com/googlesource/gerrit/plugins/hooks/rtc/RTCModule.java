@@ -28,7 +28,6 @@ import com.google.gerrit.server.git.validators.CommitValidationListener;
 import com.google.inject.AbstractModule;
 import com.google.inject.Inject;
 import com.googlesource.gerrit.plugins.hooks.its.ItsFacade;
-import com.googlesource.gerrit.plugins.hooks.its.ItsName;
 import com.googlesource.gerrit.plugins.hooks.rtc.filters.RTCAddComment;
 import com.googlesource.gerrit.plugins.hooks.rtc.filters.RTCAddRelatedLinkToChangeId;
 import com.googlesource.gerrit.plugins.hooks.rtc.filters.RTCAddRelatedLinkToGitWeb;
@@ -58,8 +57,6 @@ public class RTCModule extends AbstractModule {
 
       bind(ExecutorService.class).toInstance(
           new ScheduledThreadPoolExecutor(THREAD_POOL_EXECUTORS));
-      bind(String.class).annotatedWith(ItsName.class).toInstance(
-          RTCItsFacade.ITS_NAME_RTC);
 
       DynamicSet.bind(binder(), ChangeListener.class).to(
           RTCAddRelatedLinkToChangeId.class);
